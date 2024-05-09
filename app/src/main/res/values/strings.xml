@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">trojmiastoTohou</string>
+    <string name="welcome">Witaj w Tohou APP! Wybierz które miasto chciałbyś zwiedzić</string>
+    <string name="danzig">Danzig</string>
+    <string name="Gdingen">Gdingen</string>
+    <string name="Zoppot">Zoppot</string>
+</resources>
