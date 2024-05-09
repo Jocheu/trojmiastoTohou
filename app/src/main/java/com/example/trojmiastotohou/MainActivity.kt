@@ -23,5 +23,14 @@ class MainActivity : AppCompatActivity() {
             val changeDanzig = Intent(this@MainActivity, DanzigActivity::class.java )
             startActivity(changeDanzig)
         }
+        findViewById<TextView>(R.id.Gdingen).setOnClickListener{
+            val changeGdingen = Intent(this@MainActivity, GdingenView::class.java)
+            startActivity(changeGdingen)
+        }
+
+        findViewById<TextView>(R.id.Zoppot).setOnClickListener{
+            val changeZoppot = Intent(this@MainActivity, ZoppotView::class.java)
+            startActivity(changeZoppot)
+        }
     }
 }
